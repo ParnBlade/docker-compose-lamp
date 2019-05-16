@@ -2,7 +2,8 @@ version: "3"
 
 services:
   webserver:
-    build: 
+    build:
+    image: 7.2.x-webserver
       context: ./bin/webserver
     container_name: '7.2.x-webserver'
     restart: 'always'
